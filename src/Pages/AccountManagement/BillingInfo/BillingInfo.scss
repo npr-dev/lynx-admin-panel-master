@@ -1,0 +1,125 @@
+.billing-info {
+  .form-control {
+    padding-left: 0;
+
+    text-align: center;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  .package-info {
+    margin: 0;
+    .plan-btn {
+      width: -webkit-fill-available;
+    }
+    .cost {
+      font-size: 18px;
+
+      color: black;
+      .price {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1;
+      }
+      .per-month {
+        text-align: right;
+        font-size: 14px;
+      }
+      .price-amount {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1;
+      }
+    }
+    .price {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      .value {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+  .card-content {
+    padding-top: 7px;
+    padding-bottom: 0px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .pricing-plan {
+    .sub-text {
+      width: 75%;
+      margin: 0 auto;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0 24px;
+    }
+    .value {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: black;
+    }
+    .cost {
+      font-size: 18px;
+
+      color: black;
+      .price {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1;
+      }
+      .price-amount {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1;
+      }
+    }
+    .price-para {
+      margin-bottom: 10px;
+    }
+    .slots {
+      font-weight: bold;
+    }
+    .tab {
+      display: flex;
+      justify-content: center;
+      border: 1px solid #545cd8;
+      border-radius: 4px;
+
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      width: 50%;
+      .tab-item {
+        text-align: center;
+
+        width: 50%;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+    .num {
+      width: 15%;
+      margin: 0 auto;
+    }
+    .plan {
+      margin-bottom: 20px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+  }
+}

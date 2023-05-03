@@ -1,0 +1,30 @@
+.table-bus {
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(7) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.optionContainer{
+  li{
+    background: white !important;
+    color: black;
+  }
+  li:hover {
+    background: #555CD8 !important;
+    color: #fff;
+  }
+}
+
+.searchWrapper{
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.table-student {
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(8),
+          &:nth-child(9) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

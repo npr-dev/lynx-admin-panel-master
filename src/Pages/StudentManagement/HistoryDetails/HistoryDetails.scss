@@ -1,0 +1,25 @@
+.table-history {
+  .table {
+    thead {
+      tr {
+        th {
+          &:not(:first-child) {
+            text-align: center;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          .history-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 64px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.table-children {
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(6) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

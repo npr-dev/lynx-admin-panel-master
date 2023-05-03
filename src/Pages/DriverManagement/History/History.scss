@@ -1,0 +1,42 @@
+.card-body {
+  .table-driver {
+    .table {
+      thead {
+        tr {
+          th {
+            &:nth-child(6),
+            &:nth-child(7),
+            &:nth-child(8) {
+              text-align: center;
+            }
+          }
+        }
+      }
+      tbody {
+        tr {
+          .reset-expansion-style {
+            padding: 0;
+            .table-history {
+              h4 {
+                padding: 1rem 1rem 0;
+              }
+              .table {
+                margin-bottom: 20px;
+                thead {
+                  tr {
+                    th {
+                      &:nth-child(8),
+                      &:nth-child(9) {
+                        text-align: center;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

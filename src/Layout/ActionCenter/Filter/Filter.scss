@@ -1,0 +1,14 @@
+.filter {
+  display: flex;
+  .title {
+    font-size: 24px;
+    color: rgba($color: #000000, $alpha: 0.6);
+    font-weight: 600;
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+  .rw-dropdown-list {
+    width: 148px;
+    margin-right: 10px;
+  }
+}

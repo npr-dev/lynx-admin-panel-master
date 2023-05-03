@@ -1,0 +1,187 @@
+.table-responsive {
+  overflow-x: unset;
+  .table {
+    margin-bottom: 0;
+    tr {
+      border: 1px solid #e9ecef;
+    }
+    th,
+    td {
+      border: none !important;
+      text-align: center;
+    }
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background-color: #f3f3f3;
+        }
+      }
+    }
+  }
+}
+
+.router-link {
+  height: 100%;
+  button {
+    height: 100%;
+  }
+}
+
+.modal-img {
+  margin-bottom: 32px;
+  text-align: center;
+  img {
+    width: 120px;
+  }
+}
+
+.card-header-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  .info {
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .info-items {
+      margin-top: 4px;
+      .item {
+        font-size: 12px;
+        span {
+          font-size: 16px;
+          font-weight: 500;
+          color: #000;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    .close-button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      i {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.delete-button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #f00;
+}
+.icon-button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #424242;
+}
+
+.btn-group {
+  height: 36px;
+  .add-student-dropdown {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(70, 70, 70);
+  margin: 16px 0 32px;
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgb(189, 189, 189);
+  }
+  &::before {
+    margin-right: 0.25em;
+  }
+  &::after {
+    margin-left: 0.25em;
+  }
+}
+
+.modal {
+  .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    max-width: none;
+    width: 600px;
+    .modal-content {
+      .modal-body {
+        padding: 2rem;
+        .modal-close {
+          position: absolute;
+          top: 12px;
+          right: 16px;
+          .close-button {
+            border: none;
+            background: transparent;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .delete-modal {
+    width: 400px;
+  }
+}
+
+.school-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.no-content {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+.search-label {
+  position: absolute;
+  top: -96px;
+  right: 0;
+  #search-bar-0 {
+    width: 240px;
+    font-size: 14px;
+    height: 38px;
+  }
+}
+
+// .filter-label {
+//   position: fixed;
+//   top: 84px;
+//   right: 32px;
+// }
+
+// .main-card {
+//   margin-top: 100px;
+// }

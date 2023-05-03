@@ -1,0 +1,96 @@
+.widget-chart {
+    text-align: center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    /* padding-left: 0; */
+    position: relative;
+    border-radius: 1rem !important;
+}
+.total-number-text{
+    color: #848282 !important;
+}
+.Buses-color{
+    color: #508FF4 !important;
+}
+.Buses-circle-color{
+    background-color: #508FF4 !important;
+}
+
+.Drivers-color{
+    color: #EA498A !important;
+}
+.Drivers-circle-color{
+    background-color: #EA498A !important;
+}
+.Parents-color{
+    color: #2BB583 !important;
+}
+.Parents-circle-color{
+    background-color: #2BB583 !important;
+
+}
+.Nannies-color{
+    color: #4AC9FB !important;
+}
+.Nannies-circle-color{
+    background-color: #4AC9FB !important;
+}
+.Routes-color{
+    color: #508FF4 !important;
+}
+.Routes-circle-color{
+    background-color: #508FF4 !important;
+}
+.Students-color{
+    color: #F4B24F !important;
+}
+.Students-circle-color{
+    background-color: #F4B24F !important;
+}
+.widget-content {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon-background-color{
+    background-color: #555cd843;
+}
+
+.card-1 {
+    padding-left: 30px;
+}
+
+.scroll {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.col-md-2 {
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+
+.main-wrapper-dashborad{
+    height: 400px;
+}
+
+.widget-chart.text-left .icon-wrapper {
+    /* min-width: 54px; */
+    margin: 0 1rem 0 0;
+}
+
+.chat-div{
+    border-radius: 1rem !important;
+    margin: 5px;
+}
+
+

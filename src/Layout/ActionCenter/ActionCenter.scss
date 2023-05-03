@@ -1,0 +1,41 @@
+.action-center-container {
+  margin: -30px -30px 30px;
+  .action-center {
+    display: flex;
+    justify-content: space-between;
+    background: hsla(0, 0%, 100%, 0.55);
+    padding: 30px;
+    position: relative;
+    align-content: center;
+    // flex-wrap: wrap;
+    & > div {
+      display: flex;
+      .action-btn {
+        i {
+          font-weight: 600;
+        }
+      }
+      &.actions {
+        display: flex;
+        justify-content: flex-end;
+        // flex-wrap: wrap;
+      }
+    }
+    &.contracted {
+      .actions {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        & > div {
+          &:not(:first-child) {
+            margin-bottom: 10px;
+          }
+          .router-link {
+            button {
+              margin: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

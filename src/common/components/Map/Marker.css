@@ -1,0 +1,25 @@
+
+.overlay {
+    width: 60px;
+    height: 60px;
+    background-color: #2A446230;
+    border-radius: 60px;
+    position: relative;
+  }
+  .roundMarker {
+      position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: '#2A4462';
+    border-radius: 25px;
+    top: 20%;
+    left: 20%;
+    
+  }
+  .busNo{
+      background-color: white;
+      position:absolute; 
+      bottom: 0;
+      left:11px ;
+      font-size: 20px;
+  }

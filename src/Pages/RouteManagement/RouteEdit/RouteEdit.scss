@@ -1,0 +1,18 @@
+.table-route {
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(7) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.customTitle{
+  font-size: 20px;
+}

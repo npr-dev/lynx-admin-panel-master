@@ -1,0 +1,19 @@
+.table-bus {
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(7) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.react-tel-input {
+  input {
+    width: 100% !important;
+  }
+}

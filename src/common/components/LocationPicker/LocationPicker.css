@@ -1,0 +1,32 @@
+.main-wrapper {
+  height: 400px;
+  /* margin: 10px 50px; */
+  margin-bottom: 70px;
+  /* filter: drop-shadow(-1px 5px 3px #ccc); */
+}
+.info-wrapper {
+  margin-top: 15px;
+}
+.map-details {
+  text-align: center;
+  font-size: 1.2em;
+}
+.map-details span {
+  font-weight: bold;
+}
+.search-input {
+  /* font-size: 1rem;
+  width: 80%; */
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}

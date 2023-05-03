@@ -1,0 +1,14 @@
+.table-bus {
+    .table {
+      thead {
+        tr {
+          th {
+            &:nth-child(7) {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  

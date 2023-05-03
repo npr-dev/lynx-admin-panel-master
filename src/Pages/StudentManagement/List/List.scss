@@ -1,0 +1,24 @@
+.table-student {
+  // overflow-x: unset;
+  .avatar {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .table {
+    thead {
+      tr {
+        th {
+          &:nth-child(8),
+          &:nth-child(9) {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
