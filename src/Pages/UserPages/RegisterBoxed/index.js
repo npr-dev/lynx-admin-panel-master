@@ -11,7 +11,7 @@ import {
 import { useDispatch } from "react-redux";
 
 //import css module
-import "react-flags-select/css/react-flags-select.css";
+// import "react-flags-select/css/react-flags-select.css";
 
 // import "react-phone-input-2/dist/style.css";
 
@@ -146,7 +146,7 @@ const RegisterBoxed = props => {
 
   async function doSignup() {
     try {
-      const signupResult = await dispatch(authActions.signup(state));
+      const signupResult = await dispatch(authActions.signupEmail(state));
       if (signupResult) {
         setStateToEmpty();
         setStateLoader(false);

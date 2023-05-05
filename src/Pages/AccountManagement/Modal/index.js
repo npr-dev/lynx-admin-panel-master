@@ -1,6 +1,6 @@
 // import { TextField } from '@material-ui/core';
 import React, { Fragment, useState } from 'react';
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import { CSSTransitionGroup as ReactCSSTransitionGroup } from 'react-transition-group';
 import {Button,  Modal, Spinner, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardTitle, Container } from 'reactstrap';
 import { useSelector, useDispatch, connect } from "react-redux";
 import * as utils from "../../../common/utils";

@@ -6,7 +6,7 @@ import AppHeader from "../../Layout/AppHeader";
 import AppSidebar from "../../Layout/AppSidebar";
 import { useDispatch, useSelector } from "react-redux";
 import firebase from "./../../config/firebase";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import { CSSTransitionGroup as ReactCSSTransitionGroup } from 'react-transition-group';
 import {
   Row,
   Col,

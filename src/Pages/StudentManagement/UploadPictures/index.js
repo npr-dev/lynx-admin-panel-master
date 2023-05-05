@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { CSSTransitionGroup as ReactCSSTransitionGroup } from 'react-transition-group';
 import {
     Row, Col,
     Card, CardBody,

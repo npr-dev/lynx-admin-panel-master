@@ -3,8 +3,7 @@ import cx from "classnames";
 
 import { connect } from "react-redux";
 
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-
+import { CSSTransitionGroup as ReactCSSTransitionGroup } from 'react-transition-group';
 import HeaderLogo from "../AppLogo";
 
 import SearchBox from "./Components/SearchBox";

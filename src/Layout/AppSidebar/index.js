@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 import Nav from '../AppNav/VerticalNavWrapper';
 
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { CSSTransitionGroup as ReactCSSTransitionGroup } from 'react-transition-group';
 
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import HeaderLogo from '../AppLogo';
