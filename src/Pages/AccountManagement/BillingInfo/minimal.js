@@ -11,7 +11,7 @@ import {
   Spinner,
 } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 import axios from 'axios';
 import { connect } from 'react-redux';
 
@@ -20,7 +20,7 @@ import { updateData, createCustomer } from '../../../store/actions/authAction';
 
 import './Payment.css';
 
-dotenv.config();
+// dotenv.config();
 
 const CheckoutForm = (props) => {
   console.log(props);
